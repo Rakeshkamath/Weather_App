@@ -65,6 +65,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       padding-top: 2rem;
+      z-index: 3;
     }
     
     .navigation-tab.active {
@@ -81,7 +82,7 @@ color: #000;
 border: none;
     }
     .navigation-item {
-      margin: 20px 0;
+      margin: 10px 0;
     }
     .navigation-tab-main .current-date-time {
      

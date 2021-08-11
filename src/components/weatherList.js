@@ -35,12 +35,12 @@ const WeatherList = ({data}) => {
             <p className="city-name">{item.cityname}</p>
             </div>
             <div className="weather-center-details">
-              <img
+              <img className= "image"
                 src={`/assets/${selectImage(item.icon)}.png`}
                 alt="weather-icon"
               />
               <p className="weather-temp">
-                <span style={{ fontSize: "2rem" }}>{item.temp}</span> ⁰C
+                <span style={{ fontSize: "1.5rem" }}>{item.temp}</span> ⁰C
               </p>
               <p className="weather-type">{item.description}</p>
             </div>

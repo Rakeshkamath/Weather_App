@@ -1,77 +1,73 @@
-.weatherlist-main-mob{
+.weatherlist-main-mob {
   display: none;
 }
 .weatherlist-main-web {
-    min-height: 4.5em;
-    width: 100%;
-    background-color: #ffffff22;
-    color: #ffff;
-    padding: 0.8em 0em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0.1rem;
-   
-  }
-  .weatherlist-child {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 95%;
-  }
-  .weather-center-details {
-    display: flex;
-    align-items: center;
-    justify-content:flex-start;
-  }
-  .weather-type{
-    margin-left: 2rem;
-    font-size:1.125rem;
-  }
-  .weather-temp{
-    margin-left: 1.5rem;
-    font-size:500;
-  }
-   p {
-   font-size:1rem;
-  }
-  .fav-icon {
-    font-size: 1.6rem;
-    margin-left: -2em;
-  }
+  min-height: 4.5em;
+  width: 100%;
+  background-color: #ffffff22;
+  color: #ffff;
+  padding: 0.8em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.1rem;
+}
+.weatherlist-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+}
+.weather-center-details {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.weather-type {
+  margin-left: 2rem;
+  font-size: 1.125rem;
+}
+.weather-temp {
+  margin-left: 1.5rem;
+  font-size: 500;
+}
+p {
+  font-size: 1rem;
+}
+.fav-icon {
+  font-size: 1.6rem;
+  margin-left: -2em;
+}
 
-  .weather-center-details img{
-    height: 38px;
-    width: 36px;
+.weather-center-details img {
+  height: 38px;
+  width: 36px;
+}
 
-  }
-
-
-@media only screen and (max-width:360px) {
-  .weatherlist-main-web{
+@media only screen and (max-width: 360px) {
+  .weatherlist-main-web {
     display: none;
   }
 
-  .weatherlist-main-mob{
-    display:inline;
-    min-height: 4.5em;
+  .weatherlist-main-mob {
+    display: inline-block;
+    min-height: 4.5rem;
     color: #ffff;
-    padding: 0.8em 0em;
+    padding: 0.8rem 0.5rem;
     flex-direction: column;
-    align-items:flex-start;
-    justify-content:left;
+    align-items: flex-start;
+    justify-content: left;
     margin-bottom: 0.1rem;
-    
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.1);
   }
   .weatherlist-child {
-  
     align-items: center;
     justify-content: space-between;
-  
     height: 18px;
     width: 115px;
-    color: #FFE539;
-font-weight: 500px;
+    color: #ffe539;
+    font-weight: 500px;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0;
@@ -81,41 +77,41 @@ font-weight: 500px;
     margin-top: 10px;
     display: flex;
     align-items: center;
-   
   }
-  .weather-type{
-    height: 16px;
+  .weather-type {
+    height: 20px;
     width: 84px;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 14px;
     letter-spacing: 0;
     line-height: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .weather-temp {
+    margin-left: 1.5rem;
+    height: 16px;
+    width: 16px;
+    margin-top: -6px;
+    white-space: nowrap;
+  }
+  p {
+    font-size: 1rem;
     margin-top: 10px;
   }
-  .weather-temp{
-    margin-left: 1.5rem;
-    height: 22px;
-    width: 35px;
-   
-  }
-   p {
-   font-size:1rem;
-   margin-top: 10px;
-  }
   .fav-icon {
-
-    
-    margin-left: 280px;
+    margin-left: 270px;
     height: 17px;
     width: 18px;
-    margin-top: -45px;
-  
+    margin-top: -50px;
+    
   }
 
-  .weather-center-details img{
+  .weather-center-details img {
     height: 23px;
     width: 22px;
-
   }
-  
+  .image{
+    margin-top: 15px;
+  }
 }

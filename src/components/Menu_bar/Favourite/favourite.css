@@ -18,7 +18,7 @@
   @media only screen and (max-width: 360px) {
     .detail-header {
         height: 15px;
-        width: 144px;
+        width: 200px;
         color: #FFFFFF;
         font-size: 13px;
         letter-spacing: 0;
@@ -31,7 +31,6 @@
         background-color: transparent;
         color:white;
         cursor: pointer;
-        margin-right: -175px;
         margin-top: 3px;
     }
 

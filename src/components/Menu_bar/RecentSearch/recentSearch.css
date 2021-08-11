@@ -15,3 +15,23 @@
       color:white;
       cursor: pointer;
   }
+  @media only screen and (max-width: 360px) {
+    .detail-header {
+        height: 15px;
+        width: 300px;
+        color: #FFFFFF;
+        font-size: 13px;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin-left: -10px;
+      }
+      .detail-header button {
+        border:none;
+        outline:none;
+        background-color: transparent;
+        color:white;
+        cursor: pointer;
+        margin-top: 3px;
+        margin-left: -15px;
+    }
+}
