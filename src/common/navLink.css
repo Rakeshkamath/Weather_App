@@ -1,0 +1,99 @@
+.navigation-tab-main {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffff;
+  }
+  .navigation-tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  .navigation-item {
+    padding: 0.3em 1.5em;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8125rem;
+  }
+  .active-page {
+    color: #fad05b;
+    text-decoration: none;
+    border-bottom: 2px solid #fad05b;
+  }
+  .current-date-time p{
+    color:white;
+    display: flex;
+    margin-left:1em;
+  }
+  .current-date-time .time{
+    margin-left:1em;
+    text-transform: uppercase;
+  }
+  .menu-icon {
+    display: none;
+  }
+
+  @media only screen and (max-width: 576px) {
+    .navigation-tab-main {
+      border-bottom: none;
+      align-self: center;
+      margin-left: -50px;
+    }
+    .menu-icon {
+      display: block;
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      top: 30px;
+      left: 20px;
+    }
+    
+
+    .navigation-tab {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 70%;
+        height: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-top: 2rem;
+    }
+    
+    .navigation-tab.active {
+      left: 0;
+
+    }
+
+    .navigation-item {
+      color: #707070;
+    }
+
+    .active-page {
+color: #000;
+border: none;
+    }
+    .navigation-item {
+      margin: 20px 0;
+    }
+    .navigation-tab-main .current-date-time {
+     
+     
+      opacity: 0.6;
+  color: #FFFFFF;
+  
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  line-height: 15px;
+  margin-left: 80px;
+  margin-top: 20px ;
+  
+    }
+  }

@@ -1,0 +1,97 @@
+.main-div {
+    margin-top: 4.4em;
+    color: white;
+  }
+  .main-div h1 {
+    text-transform: capitalize;
+    margin-bottom: 1.4rem;
+  }
+  .add-to-fav {
+    display: flex;
+    align-items: center;
+  }
+  .add-to-fav p {
+    font-size: 0.8rem;
+    margin-left: 0.2rem;
+    cursor: pointer;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .display-info {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+  .not-a-fav {
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .added-to-fav {
+    color: #ffd639;
+    display: flex;
+    align-items: center;
+  }
+  .display-info img {
+    width: 4rem;
+    height: 4rem;
+  }
+  .temperature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  .temperature button {
+    box-sizing: border-box;
+    height: 30px;
+    width: 28px;
+    border: 1px solid #ffffff;
+    border-radius: 2px 0 0 2px;
+    cursor: pointer;
+    color: #ffff;
+    background-color: transparent;
+  }
+
+  @media only screen and (max-width: 360px) {
+    h1{
+      margin-top: -60px;
+      
+    
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 21px;
+  text-align: center;
+    }
+    .add-to-fav{
+      margin-left: 160px;
+      font-size: 13px;
+      margin-left:100px;
+    }
+    .heart-icon{
+      height: 17px;
+  width: 18px;
+
+}
+.display-info img{
+  height: 67px;
+  width: 64px;
+}
+.temperature button {
+  box-sizing: border-box;
+  height: 30px;
+  width: 28px;
+  border: 1px solid #ffffff;
+  border-radius: 2px 0 0 2px;
+  cursor: pointer;
+  color: #ffff;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+
+
+
+  }
